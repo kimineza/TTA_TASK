@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>About us page</title>
+</head>
+<body class="max-w-6xl mx-auto p-6">
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-cennter">
+            <div class="flex items-center">
+                <span class="text-xl font-bold text-blue-600">Clarity</span>
+            </div>
+
+            <div class="hidden md:flex gap-6 text-gray-700  font-medium">
+                <a href="./index.html" class="hover:text-blue-600 hover:underline">Home    <i class="fa-solid fa-angle-down"></i></a>
+                <a href="#"            class="hover:text-blue-600 hover:underline">Pages   <i class="fa-solid fa-angle-down"></i></a>
+                <a href="#"            class="hover:text-blue-600 hover:underline">Blogs   <i class="fa-solid fa-angle-down"></i></a>
+                <a href="#"            class="hover:text-blue-600 hover:underline">Support <i class="fa-solid fa-angle-down"></i></a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div class=" md:flex gap-3">
+                    <a href="#" class="text-gray-500 hover:text-blue-600"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-blue-600"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-blue-600"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-blue-600"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <a href="#" class="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 mx-5">Subscribe</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container mx-auto py-16 lg:flex lg:items-center">
+        <div class="lg:w-1/2">
+            <img src="./about.jpeg" alt="">
+        </div>
+
+        <div class="lg:w-5/12 lg:ml-12 mt-8 lg:mt-0">
+            <span class="text-blue-600 font-semibold text-xl">Who we are</span>
+            <h1 class="text-4xl font-bold text-gray-900 mt-2">We provide high quality Articles & blogs</h1>
+            <p class="mt-4 text-gray-600">Sed ullamcorper dui at risus viverra, nec cursus leo ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos congue dui nec dui lobortis maximus. <br> <br>
+                Curabitur pretium, libero vitae pharetra rhoncus, tellus urna auctor orci, eu dictum diam diam nec neque. Pellentesque.</p>
+        </div>
+    </section>
+
+    <section class="mt-10">
+        <h2 class="text-2xl font-bold mb-4">Top Authors</h2>
+        <div class="flex justify-end">
+            <a href="#" class="text-main text-md font-semibold mb-4 ">
+                <p>
+                    <span class="pr-1">All Authors</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </p>
+            </a>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class=" bg-gray-50 p-4 border border-gray-200 rounded-2xl flex items-center space-x-4">
+                <img src="./director of operation.webp" class="rounded-full">
+                <div>
+                    <h3 class="text-lg font-bold">Adrio Devid</h3>
+                    <p class="text-gray-500 text-sm">Director of Operations</p>
+                    <p class="text-gray-500 text-sm">03 Published posts</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-4 border border-gray-200 rounded-2xl flex items-center space-x-4">
+                <img src="./old guy.jpeg" class="rounded-full">
+                <div>
+                    <h3 class="text-lg font-bold">Rayna Kenter</h3>
+                    <p class="text-gray-500 text-sm">Content Writer</p>
+                    <p class="text-gray-500 text-sm">05 Published posts</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-4 border border-gray-200 rounded-2xl flex items-center space-x-4">
+                <img src="./bald guy.jpg" class="rounded-full">
+                <div>
+                    <h3 class="text-lg font-bold">Talan Philips</h3>
+                    <p class="text-gray-500 text-sm">Director of Operations</p>
+                    <p class="text-gray-500 text-sm">10 Published posts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-12 my-6">
+       <div class="bg-greay-100 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold text-gray-900">Subscribe to Newsletter</h2>
+        <p class="text-gray-600 mt-2">Provide your email to get email notification when we launch new products or publish new articles</p>
+
+        <form class="mt-6 flex">
+            <input type="email" placeholder="Enter your Email" class="w-full md:w-1/2 px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+            <button type="submit" class="ml-4 bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800">Subscribe</button>
+        </form>
+       </div>
+    </section>
+
+    <footer class="text-center py-6 text-gray-500">
+        © 2025 Clarity. All rights reserved.
+    </footer>
+</body>
+</html>
