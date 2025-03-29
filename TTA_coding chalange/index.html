@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Shine landing page</title>
+</head>
+<body>
+    
+    <!-- navigation bar -->
+    <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <img src="./logo.svg" alt="">
+            <ul>
+                <li class="hidden md:flex space-x-6 " >
+                    <a href="#" class="bg-main cursor-pointer">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Feature</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Team</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Testimonial</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Pricing</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-500 cursor-pointer">Contact</a>
+                </li>
+            </ul>
+            <a href="#" class="border border-blue-600 px-6 py-3 rounded-3xl bg-main hover:bg-blue-600 hover:text-white">FAQ</a>
+        </div>
+     </nav>
+
+     <!-- landing-section -->
+      <header class="bg-blue-50 text-center py-20">
+           <h1 class="text-4xl font-bold text-gray-800">
+                   Startup and SaaS Landing Page
+           </h1>
+           <p class="mt-1 text-3xl font-bold text-gray-800">Built with TailwindCSS</p>
+           <a href="#" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-3xl font-semibold hover:bg-blue-700">Download Now</a>
+           <img src="./homeimage.svg" class="px-96 flex justify-between" alt="">
+      </header>
+
+      <!-- services-section -->
+       <section class="container mx-auto my-16 px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800">
+            Our Services
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10 text-center">
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-gear"></i></span>
+                <h3 class="text-xl font-semibold mt-2">Web Development</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-chart-simple"></i></span>
+                <h3 class="text-xl font-semibold mt-2">Graphic Design</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-briefcase"></i></span>
+                <h3 class="text-xl font-semibold mt-2">Business Branding</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-file"></i></span>
+                <h3 class="text-xl font-semibold mt-2">Content Writing</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-mobile-screen-button"></i></span>
+                <h3 class="text-xl font-semibold mt-2">App Development</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-lg shadow">
+                <span class="text-blue-500 text-4l"><i class="fa-solid fa-newspaper"></i></span>
+                <h3 class="text-xl font-semibold mt-2">Digital Marketing</h3>
+                <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+            </div>
+        </div>
+       </section>
+
+       <!--Team section -->
+       <section class="container mx-auto my-16 px-6">
+
+        <h2 class="text-3xl font-bold text-center text-gray-800">
+            Our Team
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10 text-center">
+            <div class="bg-white shadow">
+                <img src="./john.jpeg" alt="">
+                <p class="text-2xl font-bold">John Doe</p>
+                <span class="text-gray-500 font-thin">UX UI Designer</span>
+            </div>
+            <div class="bg-white shadow">
+                <img src="./sarah.jpeg" alt="">
+                <p class="text-2xl font-bold">Sarah Doe</p>
+                <span class="text-gray-500 font-thin">Front-End Developer</span>
+            </div>
+            <div class="bg-white  shadow">
+                <img src="./rob.jpeg" alt="">
+                <p class="text-2xl font-bold">Rob Hope</p>
+                <span class="text-gray-500 font-thin">Front-End Develope</span>
+            </div>
+        </div>
+       </section>
+
+       <!-- footer -->
+        <footer class="bg-gray-800 text-wite py-10">
+            <div class="container mx-auto grid md:grid-cols-3 px-6">
+                <div class="px-10">
+                    <h3 class="text-2xl font-bold text-blue-500">SHINE</h3>
+                    <p class="mt-2 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quasi, ipsam voluptatem.</p>
+                </div>
+
+                <div class="px-20">
+                    <h3 class="text-xl font-semibold text-white">Company</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Press Releases</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mission</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Strategy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white">About</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Career</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Team</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Clients</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-6 border border-dashed border-gray-600">
+            </div>
+
+            <p class="text-gray-400 text-center">&copy; Designed and Developed by TailwindTemplates and UIdeck</p>
+        </footer>
+</body>
+</html>
